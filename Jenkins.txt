@@ -1,0 +1,86 @@
+
+>wlan set hostednetwork mode=allow ssid=lazyChamp key=Tibco2017
+>netsh wlan start hostednetwork
+
+
+
+JenKins Loc:-D:\Jenkins2>java -jar jenkins.war
+ecdcac2c37174fbc9bfc9e2ca8dc661c
+
+Default:Jetty and Winestone servelet Container
+Tomcat:-Can start all application on single server
+
+CLI For Jenkins:
+Faster
+Easier
+Efficient Memory Management
+java -jar jenkins-cli.jar -s http://localhost:8080/ version --username syerawar --password Tibco2017
+
+
+By default jenkins has bash Shell
+
+
+
+++++++++++++++++++++++++++++GIT++++++++++++++++++++++++++++++
+git init
+git status 
+git add -m "Msg"
+git add .
+git add *.*
+git commit -m "  "
+git log
+git --help
+
+
+For Remote Repo:
+git remote add origin https://github.com/Sandipyerawar/Repository.git
+git push -u origin master
+
+
+ git config --global user.email "yerawarsandip@gmail.com"
+ git config --global user.name "Sandipyerawar"
+
+____For Branch__________
+
+git branch "BranchName":=to create branch
+git checkout beanchname :=to checkout newly created branch
+
+Delete Branch Locally:=git branch -d MyNewBranch
+
+Delete Branch remotly:=git push origin --delete MyNewBranch
+
+git tag tagName
+ git tag -a v1.1 -m "Tag for release ver 1.1":=Anonetic,Contain info abt tagger
+git show v1.0
+git tag -l v1.*
+
+
+git push origin v1.0:=To push tag remotely
+ git push --tags
+
+
+git tag -d v1.0:=To delete tags locally
+git tag --delete v1.0
+
+
+git push origin -d v1.0:=To delete tags remotely
+git push origin --delete v1.0
+git push origin :v1.0
+
+
+git tag -d v1.0 v1.1:=Delete multiple tags
+git push origin -d v1.0 v1.1 :=Delete tags remotely
+
+
+
+
+
+
+
+
+
+
+BPMInsertUserTicket
+
+
+
